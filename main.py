@@ -28,7 +28,7 @@ for i in txt.read():
     height=cases.height
     #print(size)
     gap+=size
-    if sheet_width < gap or len(i)*120 >(sheet_width-gap):
+    if sheet_width < gap or len(i)*115 > ((sheet_width-gap) - 120):
         gap = 120
         ht = ht + 200
 print(gap)
