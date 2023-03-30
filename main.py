@@ -14,10 +14,11 @@ except FileNotFoundError:
 
 BG=Image.open("images/bg.png") 
 sheet_width=BG.width
-gap, ht = 80, 80
+gap, ht = 120, 200
+
 for i in txt.read():
     if i == '\n':
-        gap = 0;
+        gap = 120;
         ht = ht + 200
         continue
 
@@ -27,9 +28,9 @@ for i in txt.read():
     height=cases.height
     #print(size)
     gap+=size
-    if sheet_width < gap or len(i)*115 >(sheet_width-gap):
-        gap=0
-        ht= ht + 200
+    if sheet_width < gap or len(i)*120 >(sheet_width-gap):
+        gap = 120
+        ht = ht + 200
 print(gap)
 print(sheet_width)
 BG.show()
