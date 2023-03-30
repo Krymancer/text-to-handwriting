@@ -1,5 +1,6 @@
 from PIL import Image
 from sys import argv
+import random
 
 fileName = "input.txt" # path of your text file
 
@@ -23,7 +24,11 @@ for i in txt.read():
         continue
 
     cases = Image.open("images/{}.png".format(str(ord(i))))
-    BG.paste(cases, (gap, ht), cases)
+    x = random.randint(-20, -20)
+    y = random.randint(-20, -20)
+    angle = random.randint(-15, 15)
+    rt = cases.rotate(angle)
+    BG.paste(rt, (gap + x, ht + y), rt)
     size = cases.width
     height=cases.height
     #print(size)
@@ -31,6 +36,5 @@ for i in txt.read():
     if sheet_width < gap or len(i)*115 > ((sheet_width-gap) - 120):
         gap = 120
         ht = ht + 200
-print(gap)
-print(sheet_width)
 BG.show()
+
