@@ -7,14 +7,17 @@ h = hyphen.Hyphenator('pt_BR')
 
 fileName = "input.txt" # path of your text file
 
-DEFAULT_GAP = 305
+DEFAULT_GAP = 300
 DEFAULT_HT = 100
 
 gap, ht = DEFAULT_GAP, DEFAULT_HT
 
+LETTER_WIDTH = 50
+LETTER_HEIGHT = 75
+
 def get_leter(letter):
     cases = Image.open("images/{}.png".format(str(ord(i))))
-    cases.thumbnail((150,75), Image.Resampling.LANCZOS)
+    cases.thumbnail((50,75), Image.Resampling.LANCZOS)
     angle = random.randint(-15, 15)
     rt = cases.rotate(angle)
     return rt
@@ -28,6 +31,10 @@ def print_letter(image, letter):
     height = rt.height
     return (size, height)
 
+def breakline(gap, ht):
+    gap = DEFAULT_GAP
+    ht = ht + DEFAULT_HT
+    return gap, ht
 
 try:
     txt=open(argv[1], "r")
@@ -43,17 +50,18 @@ sheet_width=BG.width
 brkline = False
 
 for w in txt.read().split():
-    w += ' '
-    for idx, s in enumerate(h.syllables(w)):
-        if sheet_width < 150 or len(s) * 75 > (sheet_width - gap) and idx != 0:
-            s = '-' + s
-            brkline = True
+    for idx, s in enumerate(h.syllables(w)): # syllabes of current word
+        if len(s) * LETTER_WIDTH > (sheet_width - gap):
+                if idx == 0:
+                    continue
+                s = '-' + s # hyphen
+                brkline = True
         for i in s:
             size, height = print_letter(BG, i)
             gap += size
-            if sheet_width < 150 or size > (sheet_width - gap) or brkline:
+            if LETTER_WIDTH > (sheet_width - gap) or brkline:
+                gap, ht = breakline(gap, ht)
                 brkline = False
-                ht = ht + DEFAULT_HT
-                gap = DEFAULT_GAP
+    gap += LETTER_WIDTH # space after word
 BG.show()
 
