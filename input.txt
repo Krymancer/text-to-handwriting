@@ -1,14 +1,16 @@
-The quick brown fox jumps over the lazy dog
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-abcdefghijklmnopqrstuvwxyz
-01234567890
-!:,.?
-áâã
-éê
-íî
-óõô
-ú
-O rato roeu a roupa do rei de Roma.
-Gazeta publica hoje breve nota de faxina na quermesse.
-Vejo galã sexy pôr quinze kiwis à força em baú achatado
-À noite, vovô Kowalsky vê o ímã cair no pé do pinguim queixoso e vovó põe açúcar no chá de tâmaras do jabuti feliz.
+A Escola Clássica - Bentham, Say, Senior e Mill
+
+Jeremy Bentham (1748-1832) foi um filósofo britânico conhecido por suas contribuições para o utilitarismo e suas ideias em favor da democracia, progresso social e reforma. Ele defendia que a felicidade maior deveria ser o princípio orientador das ações humanas, e que a sociedade tem uma função positiva na promoção desse bem-estar geral.
+Bentham acreditava que os indivíduos perseguem coisas que trazem prazer e evitam coisas que trazem dor, e que a lei e as sanções morais, sociais e teológicas poderiam ser usadas pelo Estado para obrigar os indivíduos a produzir a felicidade geral. Ele conciliava o interesse individualista próprio com o interesse social.
+Bentham também propôs o conceito de utilidade marginal decrescente, ou seja, que a medida da felicidade é o dinheiro, mas que a utilidade do dinheiro diminui à medida que aumenta. Ele defendia a redistribuição de renda como justificativa para a utilidade marginal decrescente e propôs medidas como monopólio da moeda, impostos sobre heranças e monopólios, e seguros de vida e anuidades.
+Algumas críticas foram levantadas contra as ideias de Bentham, como a subjetividade de estimar prazer e sofrimento, o que gerou a utilidade cardinal. No entanto, ele contribuiu para o conceito de natureza humana como maximização da utilidade
+Bentham também apoiou a democracia, a educação em massa, as obras públicas para ajudar desempregados e a competitividade. Ele acreditava que o governo deveria intervir apenas quando necessário e que os indivíduos são melhores juízes de seu bem-estar do que o próprio governo. No entanto, le acreditava que o Estado deveria criar harmonia social artificialmente se necessário.
+Apesar das críticas econômicas e dos possíveis problemas que suas ideias poderiam trazer, como o alarme dos ricos, a destruição do sentimento de segurança e do incentivo ao trabalho, Bentham foi um defensor do progresso social e da melhoria das condições de vida da sociedade como um todo.
+Jean Baptiste Say foi um economista francês que contribuiu significativamente para o desenvolvimento da teoria econômica. Ele difundiu as ideias de Adam Smith no continente europeu e se opôs à teoria do valor-trabalho, propondo em vez disso a teoria da oferta e da demanda, que é regulada pelo custo de produção e utilidade. Say também avançou na teoria do monopólio, mostrando que ele causa perda de eficiência ao aplicar recursos escassos para auto-proteção.
+Uma de suas maiores contribuições foi a revisão dos fatores de produção, acrescentando o empreendedorismo aos tradicionais terra, trabalho e capital. Say também é conhecido pela Lei dos Mercados, que afirma que a superprodução é impossível e que a oferta cria sua própria demanda. Embora tenha sido contestada por economistas como Malthus, Sismondi e Marx, a lei não é totalmente errada, pois no longo prazo a oferta cria sua demanda. No entanto, no curto prazo, a lei não se sustenta no mercado, pois não há garantia de que os recebedores do dinheiro gastem nos produtos excedentes.
+Além disso, a Lei de Say retardou o estudo do ciclo dos negócios, mas contribuiu para o desenvolvimento da teoria econômica em geral. Say defendeu a liberdade econômica e o livre comércio, acreditando que a economia cresceria com a cooperação e troca voluntária entre as pessoas. Ele também via o empreendedorismo como um motor fundamental do crescimento econômico e acreditava que a riqueza era criada pela produção e não pela especulação ou comércio.
+John Stuart Mill (1806-1873) foi um dos economistas mais influentes do século XIX, e suas ideias são estudadas até hoje. Seu livro "Princípios de Economia Política" é considerado uma das obras mais importantes da história da economia.
+No que diz respeito à produção, Mill considerava que a riqueza era toda coisa útil que possuía valor de troca. Ele diferenciava o trabalho produtivo, aquele que incorpora utilidade nos objetos produzidos, do trabalho não produtivo, que não termina na produção de riqueza material. Para Mill, o capital era o estoque acumulado da produção do trabalho e seu aumento dependia da disposição para economizar e do produto excedente depois de supridas as necessidades da produção. Ele também notou que o aumento da produção era coibido pela extensão da terra e sua produtividade.
+Mill também foi um dos primeiros a perceber que há rendimento crescente na indústria. Ele argumentava que o capital não é constante e que sua combinação com trabalho pode gerar um retorno de escala, ou seja, aumentar a produção de forma desproporcional ao aumento dos insumos.
+No que diz respeito à distribuição, Mill reconheceu que produção e distribuição estão relacionadas. Ele acreditava que a ampliação da riqueza pela distribuição permitiria a divisão dos lucros e a criação de cooperativas de produtores. Mill também defendia que os salários dependiam da oferta e da demanda de trabalho, sendo afetados pela soma de capital e população. Ele rejeitava o conceito de reserva de salários, que afirmava que havia uma quantidade fixa do capital destinada ao pagamento dos salários. Para Mill, o salário era pago a partir da receita futura estimada e dependia da demanda e da oferta de trabalho, da parcela do capital reservada ao pagamento dos salários e do número de pessoas procurando trabalho.
+Mill também foi um dos primeiros a abordar o tema do desemprego, argumentando que ele ocorria quando a oferta de trabalho excedia a demanda. Ele defendia políticas para melhorar a educação e a qualificação dos trabalhadores, a fim de aumentar a produtividade e a demanda por trabalho. No geral, Mill foi um economista muito influente em sua época e suas ideias ainda são estudadas hoje em dia.
